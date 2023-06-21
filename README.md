@@ -1,2 +1,1 @@
-# BlazorCrudPWA
-Repositório para trabalho PWA 
+Trabalho Camilo desenvolvidor por Vinícius Vilella, Matheus Fabri e Diego Mamede.
