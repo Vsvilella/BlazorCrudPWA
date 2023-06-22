@@ -120,6 +120,142 @@
         }
       },
       {
+        "HashCode": 1471426778,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.Imagem",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Imagem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Entidade",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Entidade",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
+          "Common.TypeNameIdentifier": "Imagem",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -650346935,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.Imagem",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.Imagem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Entidade",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Entidade",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
+          "Common.TypeNameIdentifier": "Imagem",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1670073454,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteReserva",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReserva"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IdMestre",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "IdMestre",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteReserva",
+          "Common.TypeNameIdentifier": "CadastroClienteReserva",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1745955715,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteReserva",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroClienteReserva"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IdMestre",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "IdMestre",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteReserva",
+          "Common.TypeNameIdentifier": "CadastroClienteReserva",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -689022866,
         "Kind": "Components.Component",
         "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
@@ -210,6 +346,65 @@
         "Metadata": {
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
           "Common.TypeNameIdentifier": "CadastroClienteAlterar",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -955494159,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteIncluir"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
+          "Common.TypeNameIdentifier": "CadastroClienteIncluir",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 585207263,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
+          "Common.TypeNameIdentifier": "CadastroClienteIncluir",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -16044,6 +16239,21 @@
     {
       "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\Pages\\CadastroClienteIncluir.razor",
+      "TargetPath": "Pages\\CadastroClienteIncluir.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\Pages\\Imagem.razor",
+      "TargetPath": "Pages\\Imagem.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\Pages\\CadastroClienteReserva.razor",
+      "TargetPath": "Pages\\CadastroClienteReserva.razor",
       "FileKind": "component"
     },
     {

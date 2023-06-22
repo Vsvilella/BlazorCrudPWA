@@ -1,0 +1,113 @@
+@*@page "/atleta_alterar/{Id}"*@
+@using CadastroClienteReservaWasm.Helpers;
+@using CadastroClienteReservaDll.DOs;
+@inject NavigationManager NavigationManager
+
+<hr />
+<h3>Recordes</h3>
+
+@if (objetos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <EditForm Model="@novoRecord" OnValidSubmit="@Inserir">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+        <div class="row">
+            <div class="col">
+                <label class="form-label">Quantidade de Pessoas</label>
+                <input class="form-control" @bind="@novoRecord.QuantidadePessoas" />
+                <ValidationMessage For="() => novoRecord.QuantidadePessoas" />
+            </div>
+            <div class="col">
+                <label class="form-label">Data da Reserva</label>
+                <input type="date" class="form-control" @bind="@novoRecord.DataReserva" />
+                <ValidationMessage For="() => novoRecord.DataReserva" />
+            </div>
+            <div class="col">
+                <br />
+                <button class="btn btn-success mt-2" type="submit">Inserir</button>
+            </div>
+        </div>
+    </EditForm>
+
+    <EditForm Model="@novoRecord" OnValidSubmit="@Atualizar">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Quantidade de Pessoas</th>
+                    <th>Data da Reserva</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in objetos)
+                {
+                    <tr>
+                        <td>@obj.QuantidadePessoas</td>
+                        <td>@obj.DataReserva.ToShortDateString()</td>
+                        <td>
+                            @if (obj.Id != null)
+                            {
+                                <button class="btn btn-danger" @onclick="() => ExcluirDetalhe(obj.Id)">
+                                    Excluir
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </EditForm>
+    <hr />
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {        
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+    }
+
+    private AcessoApi<ClienteReservaDO> api = new AcessoApi<ClienteReservaDO>("api/ClienteReserva");
+
+    private IList<ClienteReservaDO>? objetos = null;
+
+    public ClienteReservaDO novoRecord = new ClienteReservaDO { DataReserva = DateTime.Now.Date };
+
+    [Parameter]
+    public string IdMestre { get; set; } = "";
+
+    private async void Atualizar()
+    {
+        //NavigationManager.NavigateTo("atletas");
+        //NavigationManager.NavigateTo($"atleta_alterar/{IdMestre}", true);
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+
+        this.StateHasChanged();
+    }
+
+    private async void Inserir()
+    {
+        novoRecord.IdCliente = IdMestre;
+
+        await api.InserirAsync(novoRecord);
+
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+
+        novoRecord = new ClienteReservaDO { DataReserva = DateTime.Now.Date };
+
+        this.StateHasChanged();
+    }
+
+    private async void ExcluirDetalhe(string id)
+    {
+        if (id != null)
+        {
+            await api.ExcluirAsync(id);
+
+            Atualizar();
+        }
+    }
+}

@@ -1,45 +1,71 @@
-@page "/cliente_incluir"
+@page "/cliente_alterar/{Id}"
 @using CadastroClienteReservaWasm.Helpers;
 @using CadastroClienteReservaDll.DOs;
-@inject NavigationManager NavigationManager;
+@inject NavigationManager NavigationManager
 
 <PageTitle>Cadastro de clientes</PageTitle>
 
-<h1>Incluindo cliente</h1>
+<h1>Clientes</h1>
 
-<div>
-    <div>
-        <label class="form-label">Nome</label>
-        <input class="form-control" @bind="@obj.Nome" />
-    </div>
-    <div>
-        <label class="form-label">Documento</label>
-        <input class="form-control" @bind="@obj.Documento" />
-    </div>
-    <div>
-        <label class="form-label">Telefone</label>
-        <input class="form-control" @bind="@obj.Telefone" />
-    </div>
-    <div class="mt-2">
-        <button class="btn btn-success" @onclick="Gravar">Gravar</button>
-        <a class="ml-1 btn btn-secondary" href="./clientes">Voltar</a>
-    </div>
-    
-</div>
-    
+@if (obj == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <EditForm Model="@obj" OnValidSubmit="@Gravar">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+        <div>
+            <div>
+                <label class="form-label">Nome</label>
+                <input class="form-control" @bind="@obj.Nome" />
+                <ValidationMessage For="() => obj.Nome" />
+            </div>
+            <div>
+                <label class="form-label">Documento</label>
+                <input class="form-control" @bind="@obj.Documento" />
+                <ValidationMessage For="() => obj.Documento" />
+            </div>
+            <div>
+                <label class="form-label">Telefone</label>
+                <input class="form-control" @bind="@obj.Telefone" />
+                <ValidationMessage For="() => obj.Telefone" />
+            </div>
+            <div class="mt-2">
+                <button class="btn btn-success" type="submit">Gravar</button>
+                <a class="ml-1 btn btn-secondary" href="./clientes">Voltar</a>
+            </div>
+
+            <CadastroClienteReserva IdMestre=@Id />
+
+            <Imagem Entidade="cliente" Id=@Id />
+            
+        </div>
+    </EditForm>
+}
+
 @code {
-    private AcessoApi<ClienteDO> api = new AcessoApi<ClienteDO>("api/Cliente");
+    protected async override Task OnInitializedAsync()
+    {        
+        obj = await api.RetornarPorIdAsync(Id);
+    }
 
-    private ClienteDO obj = new ClienteDO();
+    private AcessoApi<ClienteDO> api = new AcessoApi<ClienteDO>("api/cliente");
+
+    private ClienteDO? obj = null;
 
     [Parameter]
     public string Id { get; set; } = "";
 
     private async void Gravar()
     {
-        var objRetorno = await api.InserirAsync(obj);
-        
-        if (objRetorno != null)
-            NavigationManager.NavigateTo($"cliente_alterar/{objRetorno.Id}");
+        if (obj != null)
+        {
+            if (await api.AlterarAsync(obj))
+            {
+                NavigationManager.NavigateTo("clientes");
+            }
+        }
     }
 }
