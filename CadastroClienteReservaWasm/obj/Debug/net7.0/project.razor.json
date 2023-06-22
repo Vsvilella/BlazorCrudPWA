@@ -120,83 +120,6 @@
         }
       },
       {
-        "HashCode": 1471426778,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.Imagem",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Imagem"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Entidade",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Entidade",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
-          "Common.TypeNameIdentifier": "Imagem",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -650346935,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.Imagem",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.Pages.Imagem"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Entidade",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Entidade",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
-          "Common.TypeNameIdentifier": "Imagem",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1670073454,
         "Kind": "Components.Component",
         "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteReserva",
@@ -405,6 +328,83 @@
         "Metadata": {
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
           "Common.TypeNameIdentifier": "CadastroClienteIncluir",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1471426778,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.Imagem",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Imagem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Entidade",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Entidade",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
+          "Common.TypeNameIdentifier": "Imagem",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -650346935,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.Imagem",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.Imagem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Entidade",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Entidade",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
+          "Common.TypeNameIdentifier": "Imagem",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

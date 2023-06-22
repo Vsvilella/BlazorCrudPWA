@@ -11,7 +11,8 @@ namespace CadastroClienteReservaDll.DOs
         public string? IdCliente { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "A descrição do record deve ter no máximo 100 caracteres.")]
+        [Range(1, 30,
+        ErrorMessage = "A quantidade de pessoas deve ser superior a 1 e inferior a 30.")]
         public int QuantidadePessoas { get; set; }
 
         public DateTime DataReserva { get; set; }
