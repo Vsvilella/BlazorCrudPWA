@@ -24,8 +24,8 @@ else
             </div>
             <div class="col">
                 <label class="form-label">Data da Reserva</label>
-                <InputDate class="form-control" @bind-Value="@novoRecord.DataReserva" />
-                @* <input type="date" class="form-control" @bind="@novoRecord.DataReserva" /> *@
+                @* <InputDate class="form-control" @bind-Value="@novoRecord.DataReserva" /> *@
+                <input type="datetime-local" class="form-control" @bind="@novoRecord.DataReserva" />
                 <ValidationMessage For="() => novoRecord.DataReserva" />
             </div>
             <div class="col">
@@ -49,7 +49,7 @@ else
                 {
                     <tr>
                         <td>@obj.QuantidadePessoas</td>
-                        <td>@obj.DataReserva.ToShortDateString()</td>
+                        <td>@obj.DataReserva</td>
                         <td>
                             @if (obj.Id != null)
                             {
