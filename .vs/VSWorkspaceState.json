@@ -3,8 +3,9 @@
     "",
     "\\CadastroClienteApi",
     "\\CadastroClienteApi\\Controllers",
-    "\\CadastroClienteDll"
+    "\\CadastroClienteDll",
+    "\\CadastroClienteDll\\DOs"
   ],
-  "SelectedNode": "\\CadastroClienteDll\\Program.cs",
+  "SelectedNode": "\\CadastroClienteDll\\DOs\\BaseDO.cs",
   "PreviewInSolutionExplorer": false
 }

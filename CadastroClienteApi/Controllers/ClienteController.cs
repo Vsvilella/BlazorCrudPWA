@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using CadastroClienteApi.Models;
 using CadastroClienteApi.DAOs;
 using CadastroClienteApi.Controllers.Extensoes;
-using CadastroClienteDll.DOs;
 
 namespace CadastroClienteApi.Controllers
 {

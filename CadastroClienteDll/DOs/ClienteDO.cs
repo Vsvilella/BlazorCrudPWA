@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace CadastroClienteDll.DOs
+namespace CadastroAtletaDll.DOs
 {
     public class AtletaDO : BaseDO
     {
 
         [Required]
-        [StringLength(100, ErrorMessage = "O nome deve ter no m√°ximo 100 caracteres.")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no m·ximo 100 caracteres.")]
         public string Nome { get; set; } = "";
 
         [Range(0.9, 3.0,
