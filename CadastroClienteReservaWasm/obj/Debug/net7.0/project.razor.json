@@ -179,43 +179,6 @@
         }
       },
       {
-        "HashCode": -689022866,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroCliente"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-          "Common.TypeNameIdentifier": "CadastroCliente",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1163638030,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.Pages.CadastroCliente"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-          "Common.TypeNameIdentifier": "CadastroCliente",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 173837291,
         "Kind": "Components.Component",
         "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
@@ -269,6 +232,43 @@
         "Metadata": {
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
           "Common.TypeNameIdentifier": "CadastroClienteAlterar",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -689022866,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroCliente"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+          "Common.TypeNameIdentifier": "CadastroCliente",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1163638030,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroCliente"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+          "Common.TypeNameIdentifier": "CadastroCliente",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -406,43 +406,6 @@
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
           "Common.TypeNameIdentifier": "Imagem",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -316616080,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Shared.NavMenu",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -372515253,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Shared.NavMenu",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -607,6 +570,43 @@
         "Metadata": {
           "Common.TypeName": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -316616080,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Shared.NavMenu",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -372515253,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Shared.NavMenu",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
