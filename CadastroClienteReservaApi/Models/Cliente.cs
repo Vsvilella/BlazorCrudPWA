@@ -9,8 +9,8 @@ namespace CadastroClienteReservaApi.Models
     {
         public string Nome { get; set; } = "";
 
-        public double Documento { get; set; }
+        public string? Documento { get; set; }
 
-        public double Telefone { get; set; }
+        public string? Telefone { get; set; }
     }
 }

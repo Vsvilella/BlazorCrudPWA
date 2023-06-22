@@ -8,12 +8,12 @@ namespace CadastroClienteReservaDll.DOs
 {
     public class ClienteReservaDO : BaseDO
     {
-        public string? IdAtleta { get; set; }
+        public string? IdCliente { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "A descrição do record deve ter no máximo 100 caracteres.")]
-        public string? Descricao { get; set; }
+        public int QuantidadePessoas { get; set; }
 
-        public DateTime Data { get; set; }
+        public DateTime DataReserva { get; set; }
     }
 }

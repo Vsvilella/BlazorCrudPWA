@@ -10,7 +10,7 @@ namespace CadastroClienteReservaApi.Models
             this.cliente = cliente;
         }
 
-        public string? Idcliente
+        public string? IdCliente
         {
             get => cliente == null ? idCliente : cliente.Id;
             set => idCliente = value;
@@ -18,7 +18,7 @@ namespace CadastroClienteReservaApi.Models
 
         public DateTime DataReserva { get; set; }
 
-        public int? QuantidadePessoas { get; set; }
+        public int QuantidadePessoas { get; set; }
 
         private string? idCliente = null;
         private Cliente? cliente;

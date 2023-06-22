@@ -14,10 +14,10 @@ namespace CadastroClienteReservaDll.DOs
 
         [Range(0.9, 3.0,
         ErrorMessage = "A altura deve estar entre 0,9 e 3 metros.")]
-        public double Altura { get; set; }
+        public string? Documento { get; set; }
 
         [Range(20, 500,
         ErrorMessage = "O peso deve estar entre 20 e 500Kg.")]
-        public double Peso { get; set; }
+        public string? Telefone { get; set; }
     }
 }
