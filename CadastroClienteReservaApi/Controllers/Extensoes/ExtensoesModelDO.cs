@@ -6,7 +6,7 @@ using CadastroClienteReservaDll.DOs;
 using CadastroClienteReservaApi.Models;
 using CadastroClienteReservaApi.DAOs;
 
-namespace CadastroClienteReservaApi.Models.Extensoes
+namespace CadastroClienteReservaApi.Controllers.Extensoes
 {
     public static class ExtensoesModelDO
     {
