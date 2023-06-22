@@ -5,7 +5,7 @@
 
 <PageTitle>Cadastro de clientes</PageTitle>
 
-<h1>Clientes</h1>
+<h1>Cliente</h1>
 
 @if (obj == null)
 {
@@ -21,25 +21,25 @@ else
                 <label class="form-label">Nome</label>
                 <input class="form-control" @bind="@obj.Nome" />
                 <ValidationMessage For="() => obj.Nome" />
-            </div>
+            </div><br>
             <div>
                 <label class="form-label">Documento</label>
                 <input class="form-control" @bind="@obj.Documento" />
                 <ValidationMessage For="() => obj.Documento" />
-            </div>
+            </div><br>
             <div>
                 <label class="form-label">Telefone</label>
                 <input class="form-control" @bind="@obj.Telefone" />
                 <ValidationMessage For="() => obj.Telefone" />
-            </div>
+            </div><br>
             <div class="mt-2">
                 <button class="btn btn-success" type="submit">Gravar</button>
                 <a class="ml-1 btn btn-secondary" href="./clientes">Voltar</a>
-            </div>
+            </div><br>
 
             <CadastroClienteReserva IdMestre=@Id />
 
-            <Imagem Entidade="cliente" Id=@Id />
+            @* <Imagem Entidade="cliente" Id=@Id /> *@
             
         </div>
     </EditForm>

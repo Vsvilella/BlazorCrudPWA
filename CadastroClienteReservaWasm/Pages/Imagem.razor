@@ -6,11 +6,15 @@
 @inject ILogger<Imagem> Logger
 @using CadastroClienteReservaDll;
 
-<h1>Upload Files</h1>
+<p>
+    <label>
+        Foto de Perfil
+    </label>
+</p>
 
 <p>
     <label>
-        Upload up to @maxAllowedFiles files:
+        @* Upload up to @maxAllowedFiles files: *@
         <InputFile OnChange="@OnInputFileChange" multiple />
     </label>
 </p>

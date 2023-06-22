@@ -4,7 +4,7 @@
 @inject NavigationManager NavigationManager
 
 <hr />
-<h3>Recordes</h3>
+<h3>Reserva</h3>
 
 @if (objetos == null)
 {
@@ -17,13 +17,15 @@ else
     <ValidationSummary />
         <div class="row">
             <div class="col">
-                <label class="form-label">Quantidade de Pessoas</label>
-                <input class="form-control" @bind="@novoRecord.QuantidadePessoas" />
+                <label class="form-label">Quantidade de Pessoas</label><br>
+                <InputNumber @bind-Value="@novoRecord.QuantidadePessoas" />
+                @* <input class="form-control" @bind="@novoRecord.QuantidadePessoas" /> *@
                 <ValidationMessage For="() => novoRecord.QuantidadePessoas" />
             </div>
             <div class="col">
                 <label class="form-label">Data da Reserva</label>
-                <input type="date" class="form-control" @bind="@novoRecord.DataReserva" />
+                <InputDate class="form-control" @bind-Value="@novoRecord.DataReserva" />
+                @* <input type="date" class="form-control" @bind="@novoRecord.DataReserva" /> *@
                 <ValidationMessage For="() => novoRecord.DataReserva" />
             </div>
             <div class="col">

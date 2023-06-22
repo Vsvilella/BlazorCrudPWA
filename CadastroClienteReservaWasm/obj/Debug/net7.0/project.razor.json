@@ -179,102 +179,6 @@
         }
       },
       {
-        "HashCode": 173837291,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteAlterar"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
-          "Common.TypeNameIdentifier": "CadastroClienteAlterar",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 518434392,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
-          "Common.TypeNameIdentifier": "CadastroClienteAlterar",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -689022866,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroCliente"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-          "Common.TypeNameIdentifier": "CadastroCliente",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1163638030,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.Pages.CadastroCliente"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
-          "Common.TypeNameIdentifier": "CadastroCliente",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -955494159,
         "Kind": "Components.Component",
         "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
@@ -328,6 +232,43 @@
         "Metadata": {
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteIncluir",
           "Common.TypeNameIdentifier": "CadastroClienteIncluir",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -689022866,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroCliente"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+          "Common.TypeNameIdentifier": "CadastroCliente",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1163638030,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroCliente"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+          "Common.TypeNameIdentifier": "CadastroCliente",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -406,6 +347,124 @@
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.Imagem",
           "Common.TypeNameIdentifier": "Imagem",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 173837291,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteAlterar"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+          "Common.TypeNameIdentifier": "CadastroClienteAlterar",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 518434392,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+          "Common.TypeNameIdentifier": "CadastroClienteAlterar",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -415211004,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 60050838,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -514,65 +573,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -415211004,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 60050838,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
