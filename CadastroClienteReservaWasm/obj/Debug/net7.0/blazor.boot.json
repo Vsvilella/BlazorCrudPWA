@@ -3,7 +3,7 @@
   "config": [ ],
   "debugBuild": true,
   "entryAssembly": "CadastroClienteReservaWasm",
-  "icuDataMode": 0,
+  "icuDataMode": 1,
   "linkerEnabled": false,
   "resources": {
     "assembly": {
@@ -199,14 +199,14 @@
       "netstandard.dll": "sha256-2\/SuexPFW8hizUgbgPcchYHfG\/zmGzzMN6ESSyefPRQ=",
       "System.Private.CoreLib.dll": "sha256-mcywrbK0VZXiOvZ4dxU1ocaPZFplCRSIPQ\/wFikcrus=",
       "CadastroClienteReservaDll.dll": "sha256-cjqO1KXslP3vQSNg5Ava47uDRK89wjQdgMiSdkCXMpU=",
-      "CadastroClienteReservaWasm.dll": "sha256-hOs\/GL6P7TnKgQyGjF9VTxh7cguCfH6ZFBTF\/slXx6w="
+      "CadastroClienteReservaWasm.dll": "sha256-dOhmR8OtwhGdCZsqwkeZoTeoxS\/6J6GHIfLMNPmev80="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "CadastroClienteReservaDll.pdb": "sha256-rOYAn4BORhk56Si9k0J0hpdWTqCmQz1DiZ1GOBom9IM=",
-      "CadastroClienteReservaWasm.pdb": "sha256-CWCqYoOtYHR+55wWk\/LmqrR5DpTyAAzysg4Im0YTTPs="
+      "CadastroClienteReservaWasm.pdb": "sha256-4fGz3caw\/aJI\/zjUtRppmXf6vZLkx5VaMHv8vuFl4u8="
     },
     "runtime": {
       "dotnet.7.0.3.z6h9uqk499.js": "sha256-DxGvmbtUa6hGJpk3VyMEbkPZ653qWbQkh8X4ZVM9TWM=",

@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1839127444,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.App",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1730725381,
-        "Kind": "Components.Component",
-        "Name": "CadastroClienteReservaWasm.App",
-        "AssemblyName": "CadastroClienteReservaWasm",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CadastroClienteReservaWasm.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CadastroClienteReservaWasm.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "CadastroClienteReservaWasm",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -728085397,
         "Kind": "Components.Component",
         "Name": "CadastroClienteReservaWasm.Pages.FetchData",
@@ -151,6 +114,43 @@
         "Metadata": {
           "Common.TypeName": "CadastroClienteReservaWasm.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -689022866,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroCliente"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+          "Common.TypeNameIdentifier": "CadastroCliente",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1163638030,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroCliente"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroCliente",
+          "Common.TypeNameIdentifier": "CadastroCliente",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -354,6 +354,43 @@
           "Common.TypeName": "CadastroClienteReservaWasm.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "CadastroClienteReservaWasm.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1839127444,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.App",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1730725381,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.App",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -15943,6 +15980,11 @@
     {
       "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\Pages\\CadastroCliente.razor",
+      "TargetPath": "Pages\\CadastroCliente.razor",
       "FileKind": "component"
     },
     {

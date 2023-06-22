@@ -1,0 +1,89 @@
+@page "/clientes"
+@using CadastroClienteReservaWasm.Helpers;
+@using CadastroClienteReservaWasm.Models;
+@using CadastroClienteReservaDll.DOs;
+
+<PageTitle>Cadastro de Clientes</PageTitle>
+
+<h1>Clientes</h1>
+
+@if (objetos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <a class="btn btn-primary" href=@($"./cliente_incluir")>Incluir</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Documento</th>
+                <th>Telefone</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in objetos)
+            {
+                <tr>
+                    <td>@obj.Nome</td>
+                    <td>@obj.Documento.ToString()</td>
+                    <td>@obj.Telefone.ToString()</td>
+                    <td>
+                        <a class="btn btn-warning" href=@($"./cliente_alterar/{obj.Id}")>Alterar</a>
+                        <button class="btn btn-danger" @onclick="() => Excluir(obj.Id)">
+                            Excluir
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {        
+        objetos = await api.RetornarTodosAsync();
+    }
+
+    private AcessoApi<ClienteDO> api = new AcessoApi<ClienteDO>("api/Cliente");
+
+    private IList<ClienteDO>? objetos;
+    
+    private ClienteDO objetoAtual = new ClienteDO();
+
+    private void Alterar(ClienteDO objeto)
+    {
+        objetoAtual = new ClienteDO 
+        {
+            Id = objeto.Id, 
+            Nome = objeto.Nome, 
+            Documento = objeto.Documento,
+            Telefone = objeto.Telefone
+        };
+    }
+
+    private async void Excluir(string? id)
+    {
+        if (id != null)
+        {
+            await api.ExcluirAsync(id);
+            objetos = await api.RetornarTodosAsync();
+            this.StateHasChanged();
+        }
+    }
+
+    private async void Gravar()
+    {
+        if (objetoAtual.Id == null)
+            await api.InserirAsync(objetoAtual);
+        else
+            await api.AlterarAsync(objetoAtual);
+        
+        objetoAtual = new ClienteDO();
+        objetos = await api.RetornarTodosAsync();
+        this.StateHasChanged();
+    }
+}
