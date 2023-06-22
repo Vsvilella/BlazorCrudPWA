@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CadastroClienteDll.DOs
 {
-    public class ClienteDO : BaseDO
+    public class AtletaDO : BaseDO
     {
 
         [Required]
