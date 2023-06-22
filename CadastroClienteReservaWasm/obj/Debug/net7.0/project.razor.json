@@ -157,6 +157,65 @@
         }
       },
       {
+        "HashCode": 173837291,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteAlterar"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+          "Common.TypeNameIdentifier": "CadastroClienteAlterar",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 518434392,
+        "Kind": "Components.Component",
+        "Name": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+        "AssemblyName": "CadastroClienteReservaWasm",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CadastroClienteReservaWasm.Pages.CadastroClienteAlterar",
+          "Common.TypeNameIdentifier": "CadastroClienteAlterar",
+          "Common.TypeNamespace": "CadastroClienteReservaWasm.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -316616080,
         "Kind": "Components.Component",
         "Name": "CadastroClienteReservaWasm.Shared.NavMenu",
@@ -15960,6 +16019,11 @@
     {
       "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaWasm\\Pages\\CadastroClienteAlterar.razor",
+      "TargetPath": "Pages\\CadastroClienteAlterar.razor",
       "FileKind": "component"
     },
     {
