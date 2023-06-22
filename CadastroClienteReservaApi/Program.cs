@@ -34,6 +34,8 @@ ConfigBd.StringConexao = builder.Configuration.GetConnectionString("Default") ??
 
 app.UseHttpsRedirection();
 
+app.UseCors(MyAllowSpecificOrigins);
+
 app.UseAuthorization();
 
 app.MapControllers();
