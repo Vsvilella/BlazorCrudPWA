@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = CadastroClienteReservaWasm
 build_property.RootNamespace = CadastroClienteReservaWasm
-build_property.ProjectDir = c:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaWasm\
+build_property.ProjectDir = C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaWasm\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaWasm
+build_property.MSBuildProjectDirectory = C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaWasm
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/App.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Pages/Counter.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Pages/FetchData.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Pages/Index.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Shared/SurveyPrompt.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/_Imports.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Shared/MainLayout.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-o7vuozzsmb
 
-[c:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Shared/NavMenu.razor]
+[C:/Users/canel/Documentos/Faculdade_3Periodo/PWA/BlazorCrudPWA/CadastroClienteReservaWasm/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-z8dkda54u5

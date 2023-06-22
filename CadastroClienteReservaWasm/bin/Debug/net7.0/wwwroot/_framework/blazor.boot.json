@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-kgowZLZGyceaJo4bHvVY1kmm1GJuawa5rPO1RCfNYWc=",
       "netstandard.dll": "sha256-2\/SuexPFW8hizUgbgPcchYHfG\/zmGzzMN6ESSyefPRQ=",
       "System.Private.CoreLib.dll": "sha256-mcywrbK0VZXiOvZ4dxU1ocaPZFplCRSIPQ\/wFikcrus=",
-      "CadastroClienteReservaDll.dll": "sha256-vfll8zlOKBjOxB87uBfD7cjv3YUIoS5iiSPjI0wd3B8=",
-      "CadastroClienteReservaWasm.dll": "sha256-59gN2yZdiD2lfRMvKtCDKw+WDONAFrlpgw4czAbQjaU="
+      "CadastroClienteReservaDll.dll": "sha256-cjqO1KXslP3vQSNg5Ava47uDRK89wjQdgMiSdkCXMpU=",
+      "CadastroClienteReservaWasm.dll": "sha256-hOs\/GL6P7TnKgQyGjF9VTxh7cguCfH6ZFBTF\/slXx6w="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "CadastroClienteReservaDll.pdb": "sha256-W62uxz54dnYg4VQyzG5XeJXDBGbwyjWwfVh0j0Kzzsc=",
-      "CadastroClienteReservaWasm.pdb": "sha256-lqw5rzOVhWfyJ9Era1dWj8Q\/4GOXoEFzNSk+M4AmnEM="
+      "CadastroClienteReservaDll.pdb": "sha256-rOYAn4BORhk56Si9k0J0hpdWTqCmQz1DiZ1GOBom9IM=",
+      "CadastroClienteReservaWasm.pdb": "sha256-CWCqYoOtYHR+55wWk\/LmqrR5DpTyAAzysg4Im0YTTPs="
     },
     "runtime": {
       "dotnet.7.0.3.z6h9uqk499.js": "sha256-DxGvmbtUa6hGJpk3VyMEbkPZ653qWbQkh8X4ZVM9TWM=",
