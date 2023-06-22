@@ -1,0 +1,12 @@
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\bin\Debug\net7.0\CadastroClienteReservaDll.deps.json
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\bin\Debug\net7.0\CadastroClienteReservaDll.dll
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\bin\Debug\net7.0\CadastroClienteReservaDll.pdb
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.csproj.AssemblyReference.cache
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.AssemblyInfoInputs.cache
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.AssemblyInfo.cs
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.csproj.CoreCompileInputs.cache
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.dll
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\refint\CadastroClienteReservaDll.dll
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.pdb
+C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\ref\CadastroClienteReservaDll.dll
