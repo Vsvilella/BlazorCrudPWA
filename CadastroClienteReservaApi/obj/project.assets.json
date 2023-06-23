@@ -10554,40 +10554,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\canel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vinic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaApi\\CadastroClienteReservaApi.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\Documents\\GitHub\\BlazorCrudPWA\\CadastroClienteReservaApi\\CadastroClienteReservaApi.csproj",
       "projectName": "CadastroClienteReservaApi",
-      "projectPath": "C:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaApi\\CadastroClienteReservaApi.csproj",
-      "packagesPath": "C:\\Users\\canel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaApi\\obj\\",
+      "projectPath": "C:\\Users\\vinic\\Documents\\GitHub\\BlazorCrudPWA\\CadastroClienteReservaApi\\CadastroClienteReservaApi.csproj",
+      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinic\\Documents\\GitHub\\BlazorCrudPWA\\CadastroClienteReservaApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\canel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaDll\\CadastroClienteReservaDll.csproj": {
-              "projectPath": "C:\\Users\\canel\\Documentos\\Faculdade_3Periodo\\PWA\\BlazorCrudPWA\\CadastroClienteReservaDll\\CadastroClienteReservaDll.csproj"
+            "C:\\Users\\vinic\\Documents\\GitHub\\BlazorCrudPWA\\CadastroClienteReservaDll\\CadastroClienteReservaDll.csproj": {
+              "projectPath": "C:\\Users\\vinic\\Documents\\GitHub\\BlazorCrudPWA\\CadastroClienteReservaDll\\CadastroClienteReservaDll.csproj"
             }
           }
         }
@@ -10652,7 +10644,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

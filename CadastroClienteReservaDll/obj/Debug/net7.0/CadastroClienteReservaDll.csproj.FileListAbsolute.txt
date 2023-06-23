@@ -10,3 +10,15 @@ C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteRe
 C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\refint\CadastroClienteReservaDll.dll
 C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.pdb
 C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\ref\CadastroClienteReservaDll.dll
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.csproj.AssemblyReference.cache
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.AssemblyInfoInputs.cache
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.AssemblyInfo.cs
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.dll
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\refint\CadastroClienteReservaDll.dll
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\CadastroClienteReservaDll.pdb
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\bin\Debug\net7.0\CadastroClienteReservaDll.deps.json
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\bin\Debug\net7.0\CadastroClienteReservaDll.dll
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\bin\Debug\net7.0\CadastroClienteReservaDll.pdb
+C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\obj\Debug\net7.0\ref\CadastroClienteReservaDll.dll

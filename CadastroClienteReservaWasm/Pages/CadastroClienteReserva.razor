@@ -28,6 +28,9 @@ else
                 <input type="datetime-local" class="form-control" @bind="@novoRecord.DataReserva" />
                 <ValidationMessage For="() => novoRecord.DataReserva" />
             </div>
+            <div>
+                <InputCheckbox @bind-Value="isChecked" /> Vegano?
+            </div>
             <div class="col">
                 <br />
                 <button class="btn btn-success mt-2" type="submit">Inserir</button>
@@ -111,5 +114,12 @@ else
 
             Atualizar();
         }
+    }
+     private bool isChecked;
+
+    private void HandleCheckboxChange(ChangeEventArgs e)
+    {
+        isChecked = (bool)e.Value;
+        // Lógica adicional aqui
     }
 }

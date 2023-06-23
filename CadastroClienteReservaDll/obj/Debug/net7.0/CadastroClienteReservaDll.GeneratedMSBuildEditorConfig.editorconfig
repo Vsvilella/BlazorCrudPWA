@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CadastroClienteReservaDll
-build_property.ProjectDir = C:\Users\canel\Documentos\Faculdade_3Periodo\PWA\BlazorCrudPWA\CadastroClienteReservaDll\
+build_property.ProjectDir = C:\Users\vinic\Documents\GitHub\BlazorCrudPWA\CadastroClienteReservaDll\
